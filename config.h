@@ -1,0 +1,5 @@
+#define SOFT_SERIAL_PIN D0
+#define MASTER_RIGHT
+#define SPLIT_USB_DETECT
+
+
