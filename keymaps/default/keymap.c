@@ -14,10 +14,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [0] = LAYOUT(
         KC_GRAVE, KC_1, KC_2, KC_3, KC_4, KC_5,       // row 0
-        KC_PAGE_UP, KC_Q, KC_W, KC_E, KC_R, KC_T,            // row 1
-        KC_PAGE_DOWN, KC_A, KC_S, KC_D, KC_F, KC_G,            // row 2
+        KC_LEFT, KC_Q, KC_W, KC_E, KC_R, KC_T,            // row 1
+        KC_RIGHT, KC_A, KC_S, KC_D, KC_F, KC_G,            // row 2
         KC_END, KC_Z, KC_X, KC_C, KC_V, KC_B,            // row 3
-        KC_L, KC_L, KC_UP, KC_DOWN, // Extra keys in rows
+        KC_L, KC_L, KC_DOWN, KC_UP, // Extra keys in rows
 
         // Cluster
         KC_BACKSPACE, KC_KP_DOT, // Top thumb buttons
@@ -26,10 +26,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
         // second keyboard
 
-        KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINUS,       // row 0
+        KC_6, KC_7, KC_8, KC_9, KC_0, KC_EQUAL,       // row 0
         KC_Y, KC_U, KC_I, KC_O, KC_P,  KC_BACKSLASH, // row 1
         KC_H, KC_J, KC_K, KC_L, KC_SEMICOLON,  KC_QUOTE, // row
-        KC_N, KC_M, KC_COMMA, KC_DOT, KC_SLASH,  KC_EQUAL, // row 3
+        KC_N, KC_M, KC_COMMA, KC_DOT, KC_SLASH,  KC_MINUS, // row 3
         KC_ENTER, KC_SPACE, KC_LEFT_BRACKET, KC_RIGHT_BRACKET, // Extra keys in rows
 
         // Cluster
